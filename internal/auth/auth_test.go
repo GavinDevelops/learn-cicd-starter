@@ -28,5 +28,4 @@ func TestFailImproperAuthHeader(t *testing.T) {
 	if err == nil {
 		t.Fatal("Expectiong fail on improper Authorizaion header")
 	}
-	t.Fatal("Testin ci fail")
 }
